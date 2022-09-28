@@ -8,7 +8,39 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>filters projects starter</h1>
+    <!-- products -->
+    <section class="products">
+      <!-- filters -->
+      <div class="filters-container">
+        <form action="#" class="input-form">
+          <input type="text" class="search-input" placeholder="search..." />
+        </form>
+        <!-- categories -->
+        <h5>company</h5>
+        <article class="companies">
+          <buton class="company-btn">all</buton>
+          <buton class="company-btn">ikea</buton>
+          <buton class="company-btn">marcos</buton>
+        </article>
+      </div>
+      <!-- products -->
+      <div class="products-container">
+        <!-- single product -->
+        <article class="product">
+          <img
+            src="https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg"
+            alt=""
+            class="product-img img"
+          />
+          <footer>
+            <h5 class="product-name">name</h5>
+            <span class="product-price">$9.99</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <script src="./products.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
